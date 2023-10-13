@@ -81,13 +81,14 @@
         text-align:center ;
         margin-top: -100PX;
     }
-    .centre{
-    background: url(backG.jpg);
+    .Flights{
+    background-color:#F4F5E4;
+
     }
-    .centre p{
+    .fdescription h1{
         text-align: center;
-        color:black;
-        font-size: 50px;
+        color: black;
+        font-size: large;
     }
      .Tous{
         display: flex;

@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ .navbar {
+    background-color: #beadade2;
+    overflow: hidden;
+}
+.left {
+    float: left;
+    font-size: 20px   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    container: 20px;
+    background:url(images/hero-background.jpg)
+}
+
+.navbar a {
+    display: block;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.navbar a:hover {
+    background: url(images/hero-background.jpg);
+    color: black;
+}
+    a {text-decoration: none; color: black;}
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: url(images/hero-background.jpg);
+         padding:20px ;
+    }
+   
+    .foter{
+        background:url(images/footer.png) no-repeat;
+        display: flex;
+       
+        background-size: cover;
+    
+    
+    }
+    .logo{
+        color: black;
+        font-weight:10px ;
+        font-size: 40px;
+        margin-bottom: 200px;
+    }
+    .foter ul{
+        padding: 50px;
+        list-style: none;
+    
+    }
+    .foter li{
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    .Quiq{
+        font-size:30PX ;
+        font-weight: 300PX;
+    }
+    .Mylog{
+    
+        text-align:center ;
+        margin-top: -100PX;
+    }
+    
+    .group1{
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 10%;
+     margin-top: 3%;
+     margin-right: 30px;
+    }
+    .group1 h3{
+        margin-left: 20px;
+    }
+    .group1 p{
+        margin-left: 20px;
+    }
+    .paragraphe1{
+        margin-top: 50px;
+        text-align: start;
+    }
+    .paragraphe1 p{
+    
+        line-height: 2;
+        margin-bottom: 80px;
+
+    }
+
+    .paragraphe1 h3{
+        line-height: 1,5;
+        margin-bottom: 50px;
+    }
+    .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    #trekking{
+        margin-bottom: 100px;
+        margin-left: 16px;
+        width: 642px;
+        
+}
+        
+    .paragraphe2 h3{
+        margin-left:50;
+        margin-top: 20px;
+    }
+    .paragraphe2 p{
+        margin-left: 50px;
+        line-height: 2; /* Augmente l'espacement vertical entre les lignes à 1,5 fois la hauteur de la police */
+        margin-top: 20px;
+      }
+    .About{
+        background-image: url(images/backG.jpg);
+        background-size: cover;
+        
+    }
+    
+
+    
